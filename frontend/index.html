@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Vehículos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Sistema de Gestión de Vehículos</h1>
+
+<!-- LOGIN -->
+<section id="login">
+  <h2>Login</h2>
+  <input id="email" placeholder="Correo">
+  <input id="password" type="password" placeholder="Contraseña">
+  <button onclick="login()">Ingresar</button>
+</section>
+
+<!-- DASHBOARD -->
+<section id="dashboard" class="hidden">
+  <h2>Dashboard</h2>
+  <button onclick="mostrarVista('vehiculos')">Ir a Vehículos</button>
+</section>
+
+<!-- VEHICULOS -->
+<section id="vehiculos" class="hidden">
+  <h2>Gestión de Vehículos</h2>
+
+  <input id="placa" placeholder="Placa">
+  <input id="tipo" placeholder="Tipo mantenimiento">
+  <input id="fecha" type="date">
+
+  <button onclick="agregarVehiculo()">Agregar</button>
+
+  <ul id="lista"></ul>
+
+  <button onclick="mostrarVista('dashboard')">Volver</button>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
