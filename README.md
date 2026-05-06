@@ -1,12 +1,12 @@
 # Proyecto Final - Sistema de Gestión de Vehículos
 
-## 📌 Descripción
+##  Descripción del proyecto
 Aplicación web con arquitectura desacoplada (Frontend + Backend).
 Permite gestionar vehículos y autenticar usuarios.
 
 ---
 
-## ⚙️ Tecnologías
+##  Tecnologías que se usaron
 - Frontend: HTML5, CSS3, JavaScript (DOM)
 - Backend: Node.js, Express
 - Base de datos: MongoDB (Mongoose)
@@ -14,7 +14,7 @@ Permite gestionar vehículos y autenticar usuarios.
 
 ---
 
-## 📁 Estructura
+## Estructura
 
 proyecto-vehiculos/
 │
@@ -25,13 +25,14 @@ proyecto-vehiculos/
 │   └── package.json
 │
 └── frontend/
-    ├── index.html
-    ├── styles.css
-    └── app.js
-
+│    ├── index.html
+│    ├── styles.css
+│    └── app.js
+│
+└──evidencias postamn
 ---
 
-## ▶️ Ejecución Backend
+##  Ejecución Backend
 
 1. Abrir terminal en /backend
 2. Instalar dependencias:
@@ -40,11 +41,11 @@ proyecto-vehiculos/
    node server.js
 
 Servidor:
-http://localhost:3000
+http://localhost:3000 "por defecto"
 
 ---
 
-## 🔗 Endpoints
+##  Endpoints
 
 ### Usuarios
 - POST /usuarios/register
@@ -58,9 +59,9 @@ http://localhost:3000
 
 ---
 
-## 🧪 Pruebas en Postman
+##  Pruebas que se realizaron en Postman
 
-Se validaron los siguientes casos:
+Se valido lo siguiente:
 
 ✔ Registro de usuario  
 ✔ Login exitoso / fallido  
@@ -71,24 +72,24 @@ Se validaron los siguientes casos:
 
 ---
 
-## 📥 Ejemplo JSON
+##  Ejemplo JSON
 
 ### Crear vehículo
 {
-  "placa": "ABC123",
-  "tipo": "Cambio de aceite",
-  "fecha": "2026-05-01"
+  "placa": "KSP058",
+  "tipo": "Cambio de bombillos",
+  "fecha": "2026-04-21"
 }
 
 ### Login
 {
-  "email": "test@gmail.com",
-  "password": "123456"
+  "email": "prueba321@mail.com",
+  "password": "1234"
 }
 
 ---
 
-## 🖥️ Frontend
+##  Frontend
 
 - SPA (Single Page Application)
 - Navegación mediante manipulación del DOM
@@ -97,7 +98,7 @@ Se validaron los siguientes casos:
 
 ---
 
-## 🧠 Conclusión
+##  Conclusión de desarrollo
 
 Se desarrolló una aplicación completa con separación de responsabilidades,
 implementando una API REST funcional y una interfaz interactiva.
