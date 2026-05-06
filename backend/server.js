@@ -15,7 +15,7 @@ app.use("/vehiculos", vehiculosRoutes);
 
 mongoose.connect("mongodb://127.0.0.1:27017/vehiculos")
   .then(() => console.log("MongoDB conectado"))
-  .catch(err => console.log(err));
+  .catch(err => console.log("Error MOngo:",err));
 
 app.get("/", (req, res) => {
   res.send("Servidor funcionando 🚀");

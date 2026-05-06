@@ -5,9 +5,14 @@ const Usuario = require("../models/Usuario");
 
 // REGISTRO
 router.post("/register", async (req, res) => {
+  try {
   const nuevoUsuario = new Usuario(req.body);
   await nuevoUsuario.save();
   res.json({ mensaje: "Usuario registrado" });
+} catch (error) {
+  console.log(error);
+  res.status(500).json({ mensaje: "Error al registrar usuario" });
+  }
 });
 
 // LOGIN
