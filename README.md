@@ -17,17 +17,16 @@ Permite gestionar vehículos y autenticar usuarios.
 ## Estructura
 
 proyecto-vehiculos/
-│
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── package.json
+│ backend/
+│  models/
+│  routes/
+│  server.js
+│  package.json
 │
 └── frontend/
-│    ├── index.html
-│    ├── styles.css
-│    └── app.js
+│   index.html
+│   styles.css
+│   app.js
 │
 └──evidencias postamn
 
