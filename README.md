@@ -30,6 +30,7 @@ proyecto-vehiculos/
 │    └── app.js
 │
 └──evidencias postamn
+
 ---
 
 ##  Ejecución Backend
@@ -102,3 +103,8 @@ Se valido lo siguiente:
 
 Se desarrolló una aplicación completa con separación de responsabilidades,
 implementando una API REST funcional y una interfaz interactiva.
+
+---
+
+##  Autor
+Hernan Loaiza
