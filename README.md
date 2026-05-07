@@ -76,19 +76,30 @@ Se valido lo siguiente:
 ##  Ejemplo JSON
 
 ### Crear vehículo
+```
 {
   "placa": "KSP058",
   "tipo": "Cambio de bombillos",
   "fecha": "2026-04-21"
 }
+```
 
 ### Login
+```
 {
   "email": "prueba321@mail.com",
   "password": "1234"
 }
+```
 
 ---
+
+## Evidencia de Pruebas (Postman)
+
+Las capturas de pantalla de cada prueba que se realizo endpoint se encuentran en la carpeta `/evidencias`.
+
+---
+
 
 ##  Frontend
 
